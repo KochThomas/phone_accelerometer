@@ -21,9 +21,9 @@ const useStyles = makeStyles((theme) => ({
 export default function Train () {
     const classes = useStyles();
     const [recording, setRecording] = React.useState(false);
-    const [orgId, setOrgId] = React.useState("ygbety");
-    const [devType, setDevType] = React.useState("Raspy");
-    const [devId, setDevId] = React.useState("raspi-sim");
+    const [orgId, setOrgId] = React.useState("PA-Koch");
+    const [devType, setDevType] = React.useState("Raspi");
+    const [devId, setDevId] = React.useState("Raspi-sim");
     const [eventType, setEventType] = React.useState("motion");
     const [token, setToken] = React.useState("");
     const [key, setKey] = React.useState("");
